@@ -5,7 +5,10 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-//arreglo confrases
+//arreglo con frases
+struct frases{
+    char frase[100];
+};
 
 int main( int argc, char* argv[] )
 {
@@ -19,5 +22,6 @@ int main( int argc, char* argv[] )
 
       }  
       sleep(SLEEPTIME);
-   }
+   
   return 0; 
+}
